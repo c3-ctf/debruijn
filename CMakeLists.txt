@@ -1,5 +1,4 @@
 project(debruijn)
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "-Ofast -march=native")
 add_executable(debruijn main.cpp)
 install(TARGETS debruijn RUNTIME DESTINATION bin)
